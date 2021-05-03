@@ -18,7 +18,7 @@ public class Main {
 
 		CustomerManager customerManager2 = new NeroCustomerManager();
 
-		Customer customer = new Customer(1, "20110795948", "Barýþ", "Aslan", LocalDate.of(2000, 3, 2));
+		Customer customer = new Customer(1, "1234567890", "Barýþ", "Aslan", LocalDate.of(2000, 3, 2));
 
 		customerManager.add(customer);
 		customerManager2.add(customer);
